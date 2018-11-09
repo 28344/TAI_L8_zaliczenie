@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {DataSerivce} from '../../services/data-service';
+
 
 
 
@@ -8,8 +10,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent implements OnInit {
-
-  items =[
+  @Input() filterText: string;
+  items: any = [
     {
       title: 'Kotek',
       text: 'Koteł',
@@ -22,9 +24,12 @@ export class BlogComponent implements OnInit {
     },
     ]
 
-  constructor() { }
-
+  constructor(private dataService: DataSerivce) { }
   ngOnInit() {
+    this.dataService.getAll().subscribe(result => {
+      console.log(result);
+      this.items = result;
+    });
   }
 
 }
