@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e62e026-27c8-4555-aa58-3f6fe53e2571" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/api/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/api/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/api/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/api/public/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/api/public/polyfills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/api/public/runtime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/api/public/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/api/public/vendor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/app/components/blog/blog.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/components/blog/blog.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/app/components/blog/blog.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/components/blog/blog.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/app/pipes/filter.pipe.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/pipes/filter.pipe.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/api/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/api/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/app/services/data-service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/app/services/data-service.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +33,7 @@
           <entry key="html" value="17" />
           <entry key="js" value="2" />
           <entry key="json" value="3" />
-          <entry key="ts" value="37" />
+          <entry key="ts" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -53,7 +42,7 @@
           <entry key="HTML" value="17" />
           <entry key="JSON" value="4" />
           <entry key="JavaScript" value="2" />
-          <entry key="TypeScript" value="37" />
+          <entry key="TypeScript" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -65,17 +54,17 @@
         <counts>
           <entry key="babelrc" value="23" />
           <entry key="html" value="135" />
-          <entry key="js" value="307" />
+          <entry key="js" value="641" />
           <entry key="json" value="137" />
-          <entry key="ts" value="343" />
+          <entry key="ts" value="386" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="135" />
           <entry key="JSON" value="160" />
-          <entry key="JavaScript" value="307" />
-          <entry key="TypeScript" value="343" />
+          <entry key="JavaScript" value="641" />
+          <entry key="TypeScript" value="386" />
         </counts>
       </usages-collector>
     </session>
@@ -94,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/api/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="289">
+              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -135,17 +124,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/api/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="366">
+              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/src/app/blog-home/blog-home.component.ts">
+        <entry file="file://$PROJECT_DIR$/blog/src/app/services/data-service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="340">
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,6 +191,7 @@
         <option value="$PROJECT_DIR$/blog/api/app/index.js" />
         <option value="$PROJECT_DIR$/blog/angular.json" />
         <option value="$PROJECT_DIR$/blog/api/package.json" />
+        <option value="$PROJECT_DIR$/blog/src/app/services/data-service.ts" />
         <option value="$PROJECT_DIR$/blog/api/app/app.js" />
       </list>
     </option>
@@ -220,10 +213,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="124" />
-    <option name="y" value="108" />
+    <option name="x" value="381" />
+    <option name="y" value="75" />
     <option name="width" value="1940" />
-    <option name="height" value="1064" />
+    <option name="height" value="956" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -262,14 +255,30 @@
               <item name="TAI_L4" type="b2602c69:ProjectViewProjectNode" />
               <item name="TAI_L4" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TAI_L4" type="b2602c69:ProjectViewProjectNode" />
               <item name="TAI_L4" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TAI_L4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TAI_L4" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TAI_L4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TAI_L4" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -280,7 +289,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542377177912" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542380237256" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -315,15 +324,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542370908305</updated>
-      <workItem from="1542370909470" duration="6261000" />
+      <workItem from="1542370909470" duration="9135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6261000" />
+    <option name="totallyTimeSpent" value="9135000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="124" y="108" width="1940" height="1064" extended-state="0" />
+    <frame x="381" y="75" width="1940" height="956" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -336,7 +345,7 @@
       <window_info anchor="bottom" id="TypeScript" weight="0.32903227" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32903227" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.37226278" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -573,6 +582,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/api/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog/api/app/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -580,20 +592,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/api/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/api/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="289">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/src/app/services/data-service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/api/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="366">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
         </state>
       </provider>
     </entry>
