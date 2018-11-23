@@ -1,10 +1,37 @@
 'use strict';
 import express from 'express';
+import config from './config';
+import cors from 'cors';
+import bodyParser from 'body-parser';
+import morgan from 'morgan';
+import mongoose from 'mongoose';
+import routes from './REST/routes';
+
+
+
 
 const app = express();
 app.use(express.json());
 app.use(cors());
+app.use(morgan('dev'));
+app.use(bodyParser.urlencoded({extended:false}));
+app.use(bodyParser.json({limit: '2048kb'}));
 app.use(express.static('public'));
+
+mongoose.connect(config.databaseUrl, {useNewUrlParser: true, useCreateIndex: true}, (error) => {
+  if (error) {
+    console.error(error);
+  }
+  else {
+    console.log('Connect with database established');
+  }
+});
+process.on('SIGINT', () => {
+  mongoose.connection.close(function () {
+  console.error('Mongoose default connection disconnected through app termination');
+  process.exit(0);
+});
+});
 const posts =
 [
 {
@@ -87,7 +114,9 @@ app.get('/api/posts/:id', (req, res) => {
     res.status(404).send("Post NotFound");
   }
   res.send(JSON.stringify(post));
-})
-app.listen(3000, () => {
-  console.log('Server is runing')
+});
+
+routes(app);
+app.listen(config.port, () => {
+  console.info(`Server is running at ${config.port}`)
 });
